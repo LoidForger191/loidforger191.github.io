@@ -1,0 +1,225 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Fazil Mohamed | Developer</title>
+    <meta
+      name="description"
+      content="Portfolio of Fazil Mohamed, a developer who builds fast, accessible web apps."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,800&family=Instrument+Sans:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <div class="bg" aria-hidden="true">
+      <i class="orb o1"></i><i class="orb o2"></i><i class="orb o3"></i>
+      <i class="stars"></i><i class="grid"></i>
+    </div>
+
+    <header class="nav">
+      <a class="logo" href="#home">Fazil Mohamed</a>
+      <input type="checkbox" id="menu" class="sr" />
+      <label for="menu" class="burger" aria-label="Toggle menu"
+        ><span></span
+      ></label>
+      <nav>
+        <a href="#about">About</a><a href="#education">Education</a
+        ><a href="#skills">Skills</a> <a href="#projects">Projects</a
+        ><a href="#experience">Experience</a><a href="#additional">More</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero" id="home">
+        <div>
+          <h1>Fazil Mohamed</h1>
+          <h2 class="role">Full Stack Developer</h2>
+          <p class="lead">
+            I design and build fast, accessible web apps that feel effortless to
+            use.
+          </p>
+          <div class="cta">
+            <a class="btn" href="#projects">See my work</a
+            ><a class="btn ghost" href="#about">About me</a>
+          </div>
+        </div>
+
+        <figure class="cutout">
+          <img src="./src/DSC_0724-Photoroom (1).png" alt="" />
+        </figure>
+      </section>
+
+      <section id="about">
+        <h2 class="t reveal">About me</h2>
+        <p class="about reveal">
+          Aspiring Python Back End Developer with knowledge of Python, Web
+          Technologies, MySQL, Django along with 1 year of experience in service
+          associate. Completed a Python Back End Development course with strong
+          problem-solving, troubleshooting, communication, and learning
+          abilities. Seeking an entry-level software development role to apply
+          my technical skills and grow as a professional.
+        </p>
+      </section>
+
+      <section id="education">
+        <h2 class="t reveal">Education</h2>
+        <ol class="tl reveal">
+          <li>
+            <h3>B.Tech, Information Technology</h3>
+            <p class="when">2019 – 2023</p>
+            <p>Saveetha Engineering College</p>
+          </li>
+          <li>
+            <h3>Senior Secondary (XII), Tamil Nadu State Board</h3>
+            <p class="when">2018 – 2019</p>
+            <p>Green Valley Matriculation School</p>
+          </li>
+          <li>
+            <h3>Secondary (X), CBSE</h3>
+            <p class="when">2016 – 2017</p>
+            <p>St. John's Senior Secondary School</p>
+          </li>
+        </ol>
+      </section>
+
+      <section id="skills">
+        <h2 class="t reveal">Skills</h2>
+        <div class="skills reveal">
+          <div class="card">
+            <p class="kind">Programming</p>
+            <h3>Python</h3>
+          </div>
+          <div class="card">
+            <p class="kind">Web Technology</p>
+            <h3>HTML, CSS, Javascript</h3>
+          </div>
+          <div class="card">
+            <p class="kind">Framework</p>
+            <h3>Django, React</h3>
+          </div>
+          <div class="card">
+            <p class="kind">Database</p>
+            <h3>MySQL</h3>
+          </div>
+        </div>
+      </section>
+
+      <section id="projects">
+        <h2 class="t reveal">Personal projects</h2>
+        <div class="bento reveal">
+          <article class="card">
+            <h3>Job Portal</h3>
+            <p>
+              Built a Job Portal from scratch using Django Frameworks along with
+              Python and Web Technologies. This project provides a great
+              introduction to web development and helps to reinforce the
+              concepts of Python, HTML, CSS and especially MySQL for the
+              database all inside the Django Frameworks.
+            </p>
+          </article>
+          <article class="card">
+            <h3>Digital Clock</h3>
+            <p>
+              Built a digital clock from scratch using HTML, CSS, and
+              JavaScript. This project provides a great introduction to web
+              development and helps to reinforce the concepts of HTML, CSS, and
+              JavaScript.
+            </p>
+          </article>
+          <article class="card">
+            <h3>Photography Portfolio Website</h3>
+            <p>
+              An Elegant Website to showcase Art through Photography. This
+              project was built to cover the concepts of HTML, CSS and
+              JavaScript.
+            </p>
+          </article>
+          <article class="card">
+            <h3>College ERP System</h3>
+            <p>
+              A College ERP System (Enterprise Resource Planning) is designed to
+              manage administrative functions within a college, including
+              student data, course management, and faculty information. This
+              project handles multiple user roles and permissions for different
+              administrative tasks.
+            </p>
+          </article>
+        </div>
+        <h2 class="t sub reveal">College projects</h2>
+        <div class="duo reveal">
+          <article class="card">
+            <h3>Facial Expression Based Smart Music Player</h3>
+            <p>A Smart Music Player that connects with the Live Camera to detect the Facial Expression and based on the expression, a playlist is set and played.</p>
+          </article>
+          <article class="card">
+            <h3>Real Time Object Detection</h3>
+            <p>A computer vision capability that locates and classifies objects in video streams enabling immediate decision-making in dynamic environments.</p>
+          </article>
+        </div>
+      </section>
+
+      <section id="experience">
+        <h2 class="t reveal">Work experience</h2>
+        <ol class="tl reveal">
+          <li>
+            <h3>Tech Mahindra, Chennai</h3>
+            <p class="when">Sept 2024 – Oct 2025</p>
+            <p>Service Associate</p>
+          </li>
+          <li>
+            <h3>Shiash Info Solutions</h3>
+            <p class="when">Sept 2023 – Dec 2023</p>
+            <p>Python Developer – Intern</p>
+          </li>
+        </ol>
+      </section>
+
+      <section id="additional">
+        <h2 class="t reveal">Additional information</h2>
+        <div class="duo reveal">
+          <div class="card">
+            <h3>Languages</h3>
+            <ul class="langs">
+              <li>
+                Tamil <span class="meter" style="--p: 100%"></span
+                ><small>Native</small>
+              </li>
+              <li>
+                English <span class="meter" style="--p: 85%"></span
+                ><small>Fluent</small>
+              </li>
+              <li>
+                Hindi <span class="meter" style="--p: 45%"></span
+                ><small>Basic</small>
+              </li>
+            </ul>
+          </div>
+          <div class="card">
+            <h3>Certifications</h3>
+            <ul class="certs">
+              <li>
+                Business English Preliminary - Cambridge Assessment English
+              </li>
+              <li>Python Full Stack Development</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <p>
+        Let's build something.
+        <a href="mailto:fmbm.01@proton.me">fmbm.01@proton.me</a>
+      </p>
+      <p>&copy; <span id="year">2026</span> Fazil Mohamed</p>
+    </footer>
+  </body>
+</html>
